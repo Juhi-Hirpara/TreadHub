@@ -1,0 +1,32 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+android {
+
+    task customSigningReport(type: com.android.build.gradle.tasks.SigningReport) {
+        doLast {
+            println "Signing Report:"
+            println "----------------"
+            signingConfigs.each { config ->
+                println "${config.name}:"
+                println "  Key Alias: ${config.keyAlias}"
+                println "  Store File: ${config.storeFile}"
+            }
+        }
+    }
+}
