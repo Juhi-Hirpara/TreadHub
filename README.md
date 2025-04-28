@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # treadhub
 
 A new Flutter project.
@@ -68,3 +69,6 @@ Authentication: Firebase Authentication for email/phone number (OTP)
 Image Storage: Firebase Storage for product images
 
 >>>>>>> fcfc97818610b2b7a1580962a8238b4b1fdf0153
+=======
+# TreadHub
+>>>>>>> babb853780fea95594ef84e5e75b880d6027ea6c
