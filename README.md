@@ -1,22 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# treadhub
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # TradeHub
 TradeHub is a user-friendly and secure marketplace application that allows users to buy and sell a wide range of products locally. It provides a seamless experience by enabling sellers to create detailed product listings and buyers to browse, search/
 
@@ -68,7 +50,3 @@ Authentication: Firebase Authentication for email/phone number (OTP)
 
 Image Storage: Firebase Storage for product images
 
->>>>>>> fcfc97818610b2b7a1580962a8238b4b1fdf0153
-=======
-# TreadHub
->>>>>>> babb853780fea95594ef84e5e75b880d6027ea6c
