@@ -510,11 +510,11 @@ class _phoneAuthScreenState extends State<phoneAuthScreen> {
   }
 
   Future<bool> sendOtp(String phoneNumber) async {
-    // final accountSid = 'Axxxxxxxxxxxxxxxxxxxxx';  // Replace with your Twilio Account SID
-    // final authToken = '9xxxxxxxxxxxxxxxxxxxxxxxxx';    // Replace with your Twilio Auth Token
-    // final twilioNumber = 'xxxxxxxxxxx'; // Replace with your Twilio phone number
+    final accountSid ;  // Replace with your Twilio Account SID
+    final authToken ;    // Replace with your Twilio Auth Token
+    final twilioNumber ; // Replace with your Twilio phone number
 
-    // final uri = Uri.parse('https://api.twilio.com/2010-04-01/Accounts/$accountSid/Messages.json');
+    final uri = Uri.parse('https://api.twilio.com/2010-04-01/Accounts/$accountSid/Messages.json');
     final headers = {
       'Authorization': 'Basic ' + base64Encode(utf8.encode('$accountSid:$authToken')),
     };
